@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+<body>
+
+<!--Navbar-->
+<nav class="navbar sticky-top navbar-expand-lg shadow-sm bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="NavMenuPanel">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="#" class="navbar-brand">Navbar Brand</a>
+        <div class="collapse navbar-collapse" id="NavMenuPanel">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Product</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+            </ul>
+            <div>
+                <form class="d-flex">
+                    <input type="text" class="form-control">
+                    <button class="btn mx-2 btn-primary">Search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <!--Buttons-->
+<h3 align="center">Buttons</h3>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <button class="btn btn-primary">Submit</button><br><br>
+                <button class="btn btn-warning">Submit</button><br><br>
+                <button class="btn btn-success">Submit</button><br><br>
+                <button class="btn btn-info">Submit</button><br><br>
+                <button class="btn btn-dark">Submit</button><br><br>
+                <button class="btn btn-light">Submit</button><br><br>
+                <button class="btn btn-danger">Submit</button><br><br>
+                <button class="btn btn-outline-secondary">Submit</button><br><br>
+                <button class="btn btn-lg btn-toolbar">Submit</button><br><br>
+                <button class="btn btn-sm btn-outline-warning">Submit</button><br><br>
+            </div>
+        </div>
+    </div>
+
+    <!--Card-->
+
+<h3 align="center">Card</h3>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6 p-5">
+                <div class="card w-50">
+                    <img class="card-img-top"
+                         src="https://placehold.co/600x400/000000/FFFFFF.png" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto iure magni quaerat nulla numquam explicabo dolorum, est atque repudiandae qui impedit consequatur nobis alias enim iusto. Dicta obcaecati blanditiis placeat?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Form-->
+<h3 align="center">Forms</h3>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <form>
+                    <label class="form-label">Your Email</label>
+                    <input class="form-control form-control-lg"/><br>
+                    <input class="form-control form-control-sm"/><br>
+                    <input class="form-control" disabled/><br>
+                    <input class="form-control" readonly/><br>
+                    <input type="file" class="form-control"/><br>
+                    <textarea class="form-control" rows="10"></textarea>
+                    <select class="form-select">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input">
+                        <label class="form-check-label">Fish</label><br>
+                        <input type="checkbox" class="form-check-input">
+                        <label class="form-check-label">Milk</label><br>
+                        <input type="checkbox" class="form-check-input">
+                        <label class="form-check-label">Meat</label><br>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input">
+                        <label class="form-check-label">Male</label><br>
+                        <input type="radio" class="form-check-input">
+                        <label class="form-check-label">Female</label><br>
+                        <input type="radio" class="form-check-input">
+                        <label class="form-check-label">Others</label><br>
+                    </div>
+                    <input type="range" class="form-range">
+                    <input type="range" class="form-range" disabled>
+                    <input type="range" class="form-range" min='0' max='100'>
+                    <input type="range" class="form-range" min='0' max='90' step='3'>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--List-->
+<h3 align="center">List</h3>
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-6 p-3">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Bangladesh</li>
+                    <li class="list-group-item">USA</li>
+                    <li class="list-group-item">UK</li>
+                    <li class="list-group-item">Italy</li>
+                    <li class="list-group-item">France</li>
+                    <li class="list-group-item">Spain</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--Progress Bar-->
+<h3 align="center">Progress Bar</h3>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 p-3">
+            <div class="progress" style="height: 50px;">
+                <div class="progress-bar" style="width: 66.4%;">
+                    66.4% progress done
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!--Pagination-->
+<h3 align="center">Pagination</h3>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6">
+            <nav>
+                <ul class="pagination">
+                    <li class="page-item"><a href="#" class="page-link">Previous</a></li>
+                    <li class="page-item"><a href="#" class="page-link">1</a></li>
+                    <li class="page-item"><a href="#" class="page-link">2</a></li>
+                    <li class="page-item"><a href="#" class="page-link">3</a></li>
+                    <li class="page-item"><a href="#" class="page-link">4</a></li>
+                    <li class="page-item"><a href="#" class="page-link">Next</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+    <!--Table-->
+<h3 align="center">Table</h3>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-8">
+            <table class="table table-bordered">
+                <tbody>
+                <tr class="table-primary">
+                    <td>A</td>
+                    <td>B</td>
+                    <td>C</td>
+                    <td>D</td>
+                    <td>E</td>
+                </tr>
+                <tr>
+                    <td class="table-success">A</td>
+                    <td>B</td>
+                    <td>C</td>
+                    <td>D</td>
+                    <td>E</td>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>C</td>
+                    <td>D</td>
+                    <td class="table-warning">E</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+    <!--Dropdown-->
+<h3 align="center">Dropdown</h3>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6">
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Country</button>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-item">Bangladesh</li>
+                    <li class="dropdown-item">USA</li>
+                    <li class="dropdown-item">UK</li>
+                    <li class="dropdown-item">Canada</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
